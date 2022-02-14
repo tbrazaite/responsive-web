@@ -1,0 +1,29 @@
+header{
+  height: 50px;
+  width: 100%; 
+  max-width: 1050px;
+  background-color: #f8f9fa;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  z-index: 2;
+  position: fixed;
+ 
+    a{
+         text-decoration: none;
+    }
+  
+    button{
+        background-color: #007bff;
+        padding: 10px;
+        border: none;
+        border-radius: 5px;
+        color: white;
+        
+        &:hover{
+            cursor: pointer;
+        }
+    }
+}
+
+  
